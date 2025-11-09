@@ -1,0 +1,30 @@
+@extends('layouts.app')
+
+@section('content')
+<div class="max-w-md mx-auto mt-12 bg-white p-8 rounded-2xl shadow-lg border border-pink-100">
+    <h2 class="text-2xl font-bold text-pink-700 mb-6 text-center">Editar Carrera</h2>
+
+    <form action="{{ route('carreras.update', $carrera) }}" method="POST" class="space-y-5">
+        @csrf
+        @method('PUT')
+
+        <div>
+            <label class="block text-gray-700 font-medium mb-2">Nombre de la carrera</label>
+            <input type="text" name="nombre" value="{{ old('nombre', $carrera->nombre) }}"
+                   class="w-full border border-pink-200 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-pink-400"
+                   required>
+        </div>
+
+        <div class="flex justify-end space-x-3 mt-6">
+            <a href="{{ route('carreras.index') }}"
+               class="bg-gray-300 text-gray-700 px-5 py-2 rounded-lg shadow hover:bg-gray-400 transition">
+               Cancelar
+            </a>
+            <button type="submit"
+                    class="bg-pink-500 text-white px-5 py-2 rounded-lg shadow hover:bg-pink-600 transition">
+                Actualizar
+            </button>
+        </div>
+    </form>
+</div>
+@endsection
