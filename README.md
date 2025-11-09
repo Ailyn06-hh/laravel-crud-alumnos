@@ -49,27 +49,27 @@ Permite administrar una **lista de estudiantes** y **carreras**, aplicando los p
 ## Capturas de pantalla
 
 ### Estudiantes
-![Estudiantes](/alumnos-crud/public/images/Estudiantes.png)
+![Estudiantes](public/images/Estudiantes.png)
 
 ### Carreras
-![Carreras](/alumnos-crud/public/images/Carreras.png)
+![Carreras](public/images/Carreras.png)
 
 ### Formulario de Registro
-![Formulario de Estudiante](/alumnos-crud/public/images/AgregarEstudiante.png)
-![Formulario de Carrera](/alumnos-crud/public/images/AgregarCarrera.png)
+![Formulario de Estudiante](public/images/AgregarEstudiante.png)
+![Formulario de Carrera](public/images/AgregarCarrera.png)
 
 ### Registro agregado
-![Estudiante](/alumnos-crud/public/images/GuardarEstudiante.png)
-![Carrera](/alumnos-crud/public/images/GuardarCarrera.png)
+![Estudiante](public/images/GuardarEstudiante.png)
+![Carrera](public/images/GuardarCarrera.png)
 
 ### Actualizar Registro
-![Estudiante](/alumnos-crud/public/images/EditarEstudiante.png)
-![Estudiante](/alumnos-crud/public/images/EstudianteEditado.png)
-![Carrera](/alumnos-crud/public/images/EditarCarrera.png)
-![Carrera](/alumnos-crud/public/images/CarreraEditada.png)
+![Estudiante](public/images/EditarEstudiante.png)
+![Estudiante](public/images/EstudianteEditado.png)
+![Carrera](public/images/EditarCarrera.png)
+![Carrera](public/images/CarreraEditada.png)
 
 ### Actualizar Registro
-![Estudiante](/alumnos-crud/public/images/EliminarCarrera.png)
-![Estudiante](/alumnos-crud/public/images/EstudianteEliminado.png)
-![Carrera](/alumnos-crud/public/images/EliminarEstudiante.png)
-![Carrera](/alumnos-crud/public/images/EstudianteEliminado.png)
+![Estudiante](public/images/EliminarCarrera.png)
+![Estudiante](public/images/EstudianteEliminado.png)
+![Carrera](public/images/EliminarEstudiante.png)
+![Carrera](public/images/EstudianteEliminado.png)
